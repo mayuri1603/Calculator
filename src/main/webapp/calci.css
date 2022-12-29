@@ -1,0 +1,112 @@
+body
+{
+	padding:0;
+	margin:0;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	min-height: 100vh;
+	background: rgb(7, 7, 7);
+}
+
+.container
+{
+	width:45%;
+	height:45vh;
+	padding:10px;
+	border-radius:8px;
+	box-shadow: 2px 2px 2px #cbced1,
+				-2px -2px 2px #ffffff;
+}
+.display #screen
+{
+	width: 97%;
+	height:70px;
+	font-size: 35px;
+	outline: none;
+	border: none;
+	text-align: right;
+	padding-right: .5em;
+	background:#c0c0c0;
+	border-radius:10px;
+	box-shadow: inset 1px 1px 1px #cbced1,
+					  -1px -1px 1px #ffffff;
+}	
+.btns
+{
+	width:100%;
+	margin-top:1.7em;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+}
+.btns .row button
+{
+	width: 80px;
+	height:30px;
+	font-size:16px;
+	border:none;
+	margin: 5px;
+	border-radius:4px;
+	box-shadow:2px 2px 2px #00000020,
+				-1px -1px 1px #ffffff;
+				transition: .1s;
+}
+.btns .row button:hover
+{
+	box-shadow: inset 5px 5px 8px rgb(133, 243, 147),
+				inset -5px -5px 8px rgb(133, 243, 147);
+				background: #85f393;
+}
+#eva1
+{
+	background: #33ccff;
+	color:#fff;
+	box-shadow: inset 5px 5px 8px #00ace6,
+				inset -5px -5px 8px #15206c;
+}
+#eva1:hover
+{
+	box-shadow: inset 5px 5px 8px #00ace6,
+				inset -5px -5px 8px #00ace6;
+}
+#ac
+{
+	background: #33cc33;
+	color:#fff;
+}
+#ac:hover
+{
+	box-shadow: inset 5px 5px 8px #2eb82e,
+				inset -5px -5px 8px #33cc33;
+}
+#ce
+{
+	background: #ff3399;
+	color:#fff;
+}
+#ce:hover
+{
+	box-shadow: inset 5px 5px 8px #e60073,
+				inset -5px -5px 8px #ff3399;
+}
+.heading
+{
+	margin:20px;
+	color:grey;
+	display:flex;
+}
+.hidden
+{
+	justify-content: Left;
+	display:none;
+	margin:10px;
+	color:#808000;
+	display:flex;
+}
+
+
+
+
+			
